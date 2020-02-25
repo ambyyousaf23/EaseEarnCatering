@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ease Earn Catering</string>
+    <string name="title_activity_navigation">navigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="and"> Details &amp; Order </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_cater_registration">CaterRegistration</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="msg">permission</string>
+    <string name="title_activity_add_main_menu">AddMainMenu</string>
+
+</resources>

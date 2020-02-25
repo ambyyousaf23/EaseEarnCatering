@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/icon_group">
+
+        <item
+            android:title="Contact us"
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/ic_contact_phone_black_24dp">
+        </item>
+
+        <item
+            android:title="Registration"
+            android:id="@+id/registration"
+            android:icon="@drawable/ic_persons_logo">
+        </item>
+    </group>
+
+</menu>
+

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <ImageView android:src="@drawable/ic_image_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+android:id="@+id/customerimg"
+        android:paddingRight="230dp"
+
+        android:layout_gravity="center_horizontal" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:weightSum="1">
+
+
+            <EditText
+                android:id="@+id/customorfirstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+
+                android:padding="8dp"
+                android:textColorHint="#333366"
+
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#101010" />
+
+            <EditText
+                android:id="@+id/customorlastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Last Name"
+                android:inputType="textEmailAddress"
+
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#333366" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#101010" />
+
+            <EditText
+                android:id="@+id/customeremail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#333366" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#101010" />
+
+            <EditText
+                android:id="@+id/customerpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#333366" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#101010" />
+
+            <EditText
+                android:id="@+id/customerrepassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="ReType-Password"
+                android:inputType="textPassword"
+
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#333366" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#101010" />
+
+            <EditText
+                android:id="@+id/customernumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Contact No"
+
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#333366" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#101010" />
+
+            <Button
+                android:id="@+id/customerbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_signup"
+                android:padding="16dp"
+                android:text="Create Account"
+                android:textAllCaps="false"
+                android:textColor="#333366" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
